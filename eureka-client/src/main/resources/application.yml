@@ -1,0 +1,7 @@
+server:
+  port: 8763
+
+spring:
+  application:
+    #需要指明spring.application.name,这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name 。
+    name: eureka-hello # 这个名称主要是可以在 server 端显示出来

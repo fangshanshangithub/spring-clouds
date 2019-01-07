@@ -1,0 +1,9 @@
+eureka:
+  instance:
+    hostname: 192.168.10.120
+  client:
+    # registerWithEureka和fetchRegistry设置false表明是eureka，server端
+    registerWithEureka: false #是否向服务注册中心注册自己
+    fetchRegistry: false #是否检索服务
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
