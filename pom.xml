@@ -16,9 +16,13 @@
     <description>Demo project for Spring Boot</description>
 
     <modules>
-        <module>eureka-server</module>
-        <module>eureka-client</module>
-        <module>service-ribbon</module>
+        <module>eureka-server</module> <!-- eureka 服务注册中心 -->
+        <module>eureka-client</module> <!-- 提供服务方 -->
+        <module>service-ribbon</module> <!-- 服务消费方 【基于ribbon】 -->
+        <module>service-feign</module> <!-- 服务消费方 【基于feign】-->
+
+        <module>service-zuul</module> <!-- 微服务网关zuul -->
+
     </modules>
 
     <properties>

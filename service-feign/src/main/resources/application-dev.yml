@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+# feign 自带 断路器（hystrix）直接开启
+feign:
+  hystrix:
+    enabled: true

@@ -1,7 +1,7 @@
 server:
-  port: 8766
+  port: 8765
 spring:
   application:
-    name: service-ribbon
+    name: service-feign
   profiles:
       active: dev

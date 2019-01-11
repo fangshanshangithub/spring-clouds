@@ -1,0 +1,1 @@
+##### 该eureka-server项目主要是接收eureka-client的服务注册，是eureka服务注册中心

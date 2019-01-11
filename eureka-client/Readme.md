@@ -1,0 +1,1 @@
+##### 该eureka-client项目主要是服务提供方，注册服务到eureka注册中心
